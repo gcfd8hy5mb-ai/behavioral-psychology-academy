@@ -85,6 +85,14 @@ Run `node tools/count-textbook-words.mjs` from the repository root.
 - Scholarly context: Back et al. 2013 on admiration/rivalry (PMID 24128186), Crego & Widiger's 2026 Noba personality disorders module, and Emmelkamp & Meyerbröker 2025 psychotherapy review (PMID 39239878). This is independently drafted synthesis, **not** textbook chapter copying. Scientific claim-to-source verification is not exhaustive, and no external academic sign-off has occurred.
 - Preserve draft PR #15; no merge or deploy.
 
+## Batch 17 — evidence-led narcissism specialization (2026-11-13, draft)
+- Added **18 substantial, original textbook reading sections** in nine existing chapters spanning all eight approved main-category themes. Topics cover clinical diagnosis and base rates, developmental evidence, narcissistic traits and heterogeneity, manipulation and coercion, hostility and contempt, accountability, leadership and power, shame and empathy, confirmation bias, and treatment/recovery.
+- **3,592 new qualifying expository words**, with no case studies or learning activities in the added material.
+- Cumulative conservative counting result: **84,292 / 250,000** qualifying words; **165,708 remaining**. The separate category of standalone cases/examples contributes **13,259 excluded words**. Recomputed from the repository arrays and title-based exclusion logic; direct CLI invocation and finer-grained treatment of mixed narrative paragraphs remain outstanding.
+- New JSON arrays map to existing chapter titles. Both inline JavaScript scripts pass syntax checks. All 36 chapter titles persist and no progress/cache logic was edited. Full runtime navigation, saving, mobile Safari and PWA acceptance are not verified.
+- Source-derived claims still require exhaustive scholarly claim-to-citation review and independent sign-off. This is original prose based on research themes, not copied textbook chapters.
+- Draft PR #15 remains unmerged and undeployed.
+
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
 2. Independently verify bibliographic links, source claims, population/sample descriptions, effect-size interpretations, and dates.
