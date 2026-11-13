@@ -36,6 +36,18 @@ assert.equal(recoveryDepthGuide.length,10,'Ten trauma research additions require
 for(const [i,m] of recoveryDepthGuide.entries()){
  assert(m.title && m.foundation.length>180 && m.research.length>180 && m.practice.length>50 && m.caution.length>30,'Incomplete trauma research module '+(i+1));
 }
+const therapeuticSkills=get('therapeuticSkills');
+assert.equal(therapeuticSkills.length,6,'Expected six guided therapeutic-skill tracks');
+assert.equal(therapeuticSkills.reduce((n,x)=>n+x.steps.length,0),24,'Expected 24 opt-in practice steps');
+for(const [i,skill] of therapeuticSkills.entries()){
+ assert(skill.title && skill.kind && skill.concept.length>120,'Missing skills explanation '+i);
+ assert(skill.steps.length===4 && skill.steps.every(step=>step.length>45),'Missing practice steps '+i);
+ assert(skill.limits.length>65 && skill.reflection.length>20,'Safety and reflection incomplete '+i);
+}
+assert(html.includes('renderTherapeuticSkills()+'),'Guided skills not attached to Trauma Center');
+for(const control of ['therapeutic-picker','therapeutic-notes','data-therapeutic-back','data-therapeutic-next','data-therapeutic-reset'])assert(html.includes(control),'Missing interactive control '+control);
+assert(html.includes('therapeuticNotes="";therapeuticStep=0;therapeuticSkill=0'),'Private skill state not cleared upon leaving');
+assert(!/saveLocal\([^\n]*therapeuticNotes/.test(html),'Sensitive skill text must not be persisted');
 assert(html.includes('const detail=recoveryDepthGuide[recoveryModule]'),'Deep reading disconnected');
 assert(html.includes('depth+quick+principles+'),'Recovery depth panels disconnected');
 assert(html.includes('clearRecoveryPrivateState()'),'Private state reset missing');
