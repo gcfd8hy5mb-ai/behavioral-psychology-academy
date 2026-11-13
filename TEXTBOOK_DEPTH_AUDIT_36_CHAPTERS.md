@@ -70,3 +70,11 @@ An internally complete chapter must offer an integrated argument with clear conc
 All **36 chapters** received a retroactive, chapter-specific reading pass: eight shorter chapters received two sections each in `retroTextbookDepthBatch21`, and the other 28 each received a targeted academic analysis section in `retroTextbookDepthBatch21B`. These are **partial improvements**, not completed 7,000-word rewrites. They remain in the existing extended university-style reading renderer so the approved interface and progress tracking are untouched. Expand the remaining short chapters and eventually edit the entire chapter into a seamless reading sequence rather than repeatedly appending small articles.
 
 **Not merged, deployed or independently signed off.**
+
+## Completion pass 22 — eight existing weak chapters (2026-11-13)
+
+- Draft-only curriculum commit `b63f1c0f54c331e99514c883b1148acc1f152af6` adds one integrated multi-paragraph advanced reading section to each of chapters **18, 22, 23, 24, 25, 26, 27 and 28**; no lessons, main categories, chapter IDs, activities, storage keys, or site layout changed.
+- **2,442 qualifying expository words added**, excluding headings and standalone case studies. The repository counter was updated to include `completionPass22` and its equivalent parsing/count rules were recomputed against the complete modified curriculum: **100,454 / 250,000 qualifying words**, **149,546 remaining**; **13,259 standalone case/example words remain excluded**. This is an automated title-based count, not a publication certification.
+- Added original discussions of social identity and rank, accountability, contempt and humiliation, dominance versus prestige, attachment and autonomy, post-harm recovery, verbal devaluation, and psychological abuse with measurement and causal-inference caveats.
+- **Still incomplete:** these eight chapters remain below the provisional chapter-length target, and all 36 require a continuous prose/editorial pass, named-study verification, stronger primary citations, and independent review. The earlier chapter table above is a pre-pass-22 snapshot, not updated chapter-level totals.
+- **Testing not completed:** direct Node CLI, browser navigation, device/PWA/cache behavior and external academic sign-off remain open. No merge or deployment.
