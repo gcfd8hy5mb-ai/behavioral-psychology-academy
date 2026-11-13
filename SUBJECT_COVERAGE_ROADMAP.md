@@ -1,5 +1,30 @@
 # Behavioral Intelligence Academy — 80-Subject Coverage Roadmap
 
+## SPECIALIZATION DIRECTIVE — NARCISSISM (approved 2026-11-13)
+
+**The academy is a specialist university-style psychology library about narcissism and its scientifically documented connections, not a broad survey of unrelated psychology.** Retain exactly the eight existing navigation categories, approved design, 36 chapter identifiers, and student progress keys. Keep the target of 250,000 qualifying expository words excluding case studies, scenarios and supplementary examples.
+
+Every topic in the 80-subject roadmap below must be studied through at least one of these questions:
+1. What does empirical research specifically show about narcissistic traits, grandiose or vulnerable presentations, pathological narcissism, or diagnosed narcissistic personality disorder?
+2. What processes overlap with narcissism but are **not unique to it**, such as antagonism, coercive control, cognitive bias, attachment insecurity, verbal aggression, or status sensitivity?
+3. Which alternatives—including other traits, social learning, circumstance, other disorders, ordinary defensiveness, or methodological artifacts—explain similar observations?
+4. How do measurement, sampling, context, culture, comorbidity, longitudinal evidence, and selection bias qualify conclusions?
+5. How can readers evaluate conduct and consequences without diagnosing a person they have not assessed?
+
+**Key distinctions:** normal-range narcissism versus pathological narcissism versus NPD; narcissistic grandiosity versus vulnerability; trait associations versus causal explanations; self-report versus informant versus clinical assessment; individual diagnosis versus behavior-based safety assessment. 'Narcissistic abuse', 'narcissistic rage', 'love bombing' and similar popular terms require careful definitions; they are not stand-alone DSM diagnoses. Never treat every abusive act or interpersonal disagreement as evidence of narcissism, nor equate an NPD diagnosis with abusive conduct.
+
+**Editorial emphasis across the eight existing categories:**
+- Narcissism, entitlement, and personality: core trait models, clinical criteria, development, dimensional alternatives, Dark Triad overlap, empathy research, grandiosity and vulnerability
+- Manipulation and emotional control: exploitation, coercion and deception, explicitly differentiating these general mechanisms from evidence uniquely implicating narcissism
+- Verbal abuse, contempt, and hostility: antagonism, threat reactions, humiliation and aggression, avoiding the assumption that verbal abuse implies NPD
+- Accountability, defensiveness, and conflict: self-image protection, criticism response, shame, dissonance, blame-shifting and behavioral change
+- Social hierarchy, dominance, and power: status motivations, admiration, rivalry, rank concerns, favoritism and cultural/group moderators
+- Emotional regulation and attachment: emotion regulation, empathy components, sensitivity to rejection, relationships and alternatives to simplified attachment labels
+- Psychological defenses and cognitive biases: self-serving biases, motivated reasoning, projection claims, overconfidence, evidence standards and competing models
+- Psychological harm and recovery: effects of coercive/hostile relationships regardless of perpetrator diagnosis; therapy evidence, autonomy, coping and safe recovery resources
+
+**Required reading quality:** substantive explanations of theory and history, research designs and measured outcomes, disagreements and replication concerns, limitations, and carefully bounded practical implications. Keep the reading-only format with no quizzes, assignments or homework. Cases stay available but are counted separately.
+
 Eight approved main categories are **unchanged**. This is a subject-level expansion register, **not** a declaration that all 80 have been covered in depth. Some themes already appear in earlier chapters; editorial review should compare existing text before marking 'deep coverage verified'.
 
 Status legend: `Planned / coverage audit pending` means additional depth or duplication audit needed. Existing mentions do **not** establish university-textbook depth. The section names below describe intellectual subject coverage, not diagnoses of individuals. Clinical treatment methods are taught as scholarship, not self-administered trauma-processing instructions.
