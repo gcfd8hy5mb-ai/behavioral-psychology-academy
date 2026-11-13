@@ -1,6 +1,6 @@
 # Behavioral Intelligence Academy — Textbook Depth Register
 
-Updated: 2026-11-13 (Batch 8, branch `curriculum/250k-textbook-depth-batch-8`)
+Updated: 2026-11-13 (Batch 9 draft, branch `curriculum/250k-textbook-depth-batch-9`)
 
 ## Curriculum contract
 - **Target: 250,000 words of substantive textbook prose** across the existing 36 chapters under the **eight approved main categories**.
@@ -25,6 +25,15 @@ This is a **conservative automated estimate**, not a certified publication word 
 
 ## Reproduce the count
 Run `node tools/count-textbook-words.mjs` from the repository root.
+
+
+## Batch 9 — Chapters 13–24 (draft, not deployed)
+- Added **24 substantive reading-only research sections** across all 12 existing chapters 13–24 (two sections per chapter).
+- **2,831 additional expository words** in this batch, excluding headings and case-study prose; no new case studies, questions, homework, or assessments.
+- **Provisional cumulative total: 64,240 textbook words**, assuming the Batch 8 baseline of 61,409 remains unchanged and all new headings are classified as expository by the counter. **Provisional remaining: 185,760**.
+- Added Batch 9 array to `tools/count-textbook-words.mjs`. Run the actual Node counter in CI or a local checkout before treating this estimate as verified.
+- Existing 36 chapter titles and the eight approved category structure remain unchanged. Insertion appends reading blocks to the existing per-title deep-dive renderer, without changing existing progress storage or cache handlers.
+- Research copy includes qualifiers on diagnostic interpretation, correlation vs causation, measurement differences, and trauma-treatment limits. Independent reference-by-reference review and physical iPhone/Home Screen testing are **not yet verified**.
 
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
