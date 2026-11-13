@@ -105,6 +105,17 @@ Run `node tools/count-textbook-words.mjs` from the repository root.
 - Future true-textbook-depth requirements: much longer coherent chapter treatments, explicit primary-study summaries with methods and results, systematic evidence tables, reference-to-paragraph mapping, treatment of contrary research, elimination of conceptual repetition, and detailed faculty-style editorial audit. Independent clinical/academic review remains outstanding.
 - **No merge or deployment.** Draft PR #15 is the staging area.
 
+## Retroactive university-textbook depth pass — 2026-11-13 (draft)
+
+- User-directed standard now applies to **all 36 previously written chapters**, not just future batches. Created `TEXTBOOK_DEPTH_AUDIT_36_CHAPTERS.md` with chapter-by-chapter counted exposition, excluded case words, existing reference counts, editorial priorities, chapter floor gaps and explicit research/clinical/technical completion gates.
+- Added `retroTextbookDepthBatch21`: **16 new research-led reading sections across eight of the shortest existing chapters**, **2,530 qualifying words**.
+- Added `retroTextbookDepthBatch21B`: **28 distinct chapter-specific analytical reading sections, one for each remaining chapter**, **2,912 qualifying words**.
+- Combined retroactive work: **44 new expository sections across all 36 chapters**, **5,442 new words**, with no new case studies, homework or assessments.
+- Updated the existing chapter reader's extended-reading label to emphasize research, theory and critical interpretation; retained UI structure, chapter identifiers, saved progress and cache mechanisms without modifying their code.
+- Current conservative checkpoint: **98,012 / 250,000 qualifying textbook words**, **151,988 remaining**, **13,259 standalone case/example words excluded**. Equivalent JavaScript counter logic recomputed these values; direct Node CLI run pending. The title-based heuristic may still count narrative sentences embedded in mixed sections.
+- **Critical limitation:** this is an initial pass across all chapters, **not** completion of an integrated 7,000-word rewrite for each chapter. All 36 are still below the provisional 7,000-word planning floor and require substantive new scholarship, verified primary-study summaries, de-duplication, transitions and independent quality review. The goal is not mere inflation of word count.
+- Both inline JavaScript blocks passed syntax checks after edits; no full browser/mobile regression or physical device test. No independent academic or clinical sign-off. Draft PR remains unmerged and undeployed.
+
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
 2. Independently verify bibliographic links, source claims, population/sample descriptions, effect-size interpretations, and dates.
