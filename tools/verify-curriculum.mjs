@@ -39,7 +39,7 @@ for(const [i,m] of recoveryDepthGuide.entries()){
 assert(html.includes('const detail=recoveryDepthGuide[recoveryModule]'),'Deep reading disconnected');
 assert(html.includes('depth+quick+principles+'),'Recovery depth panels disconnected');
 assert(html.includes('clearRecoveryPrivateState()'),'Private state reset missing');
-assert(!/saveLocal\\(.*recoveryNotes/.test(html),'Recovery reflection unexpectedly persisted');
+assert(!/saveLocal\(.*recoveryNotes/.test(html),'Recovery reflection unexpectedly persisted');
 assert(html.includes('localStorage'),'Progress persistence missing');
 assert(html.includes('bia-cache-revalidation'),'Cache revalidation missing');
 assert(sw.includes('cache: "no-store"'),'Network-first navigation missing');
