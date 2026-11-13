@@ -49,6 +49,13 @@ Run `node tools/count-textbook-words.mjs` from the repository root.
 - Extended `tools/count-textbook-words.mjs` to include `openTextbookSynthesisBatch12`.
 - Pending: full counter execution, source-to-claim review, physical-device and progress-preservation acceptance, and academic expert review.
 
+## Narcissism Research Batch 13 — 2026-11-13 (draft)
+- Added **15 original research-focused sections across 12 existing chapters**, covering diagnostic models, developmental uncertainty, narcissistic admiration and rivalry, entitlement, differential diagnosis, empathy, attachment, coercive control, contempt, accountability, group power, cognitive inference, NPD treatment, and harm recovery.
+- **2,039 words** of new substantive exposition excluding titles and case studies. Provisional cumulative **69,500 / 250,000**; provisional remaining **180,500**. Full Node counter execution remains necessary.
+- Verified the new JSON data against the existing 36-chapter lesson array and passed syntax checks on both inline scripts before committing.
+- Added the new array to `tools/count-textbook-words.mjs`. Do not count case studies or independent reference material toward the target.
+- Sources supporting specific research context include Back et al. (2013), PMID 24128186 (narcissistic admiration and rivalry); Crego & Widiger's Noba *Personality Disorders* module; Mitra, Torrico & Fluyau's StatPearls NPD clinical reference (updated 2024); and Widiger & Smith (2025) on dimensional classification. Source-to-claim editorial audit and on-device testing are still pending.
+
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
 2. Independently verify bibliographic links, source claims, population/sample descriptions, effect-size interpretations, and dates.
