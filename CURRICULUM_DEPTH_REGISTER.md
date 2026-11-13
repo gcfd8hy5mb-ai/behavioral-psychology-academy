@@ -36,6 +36,12 @@ Run `node tools/count-textbook-words.mjs` from the repository root.
 - Existing 36 chapter titles and the eight approved category structure remain unchanged. Insertion appends reading blocks to the existing per-title deep-dive renderer, without changing existing progress storage or cache handlers.
 - Research copy includes qualifiers on diagnostic interpretation, correlation vs causation, measurement differences, and trauma-treatment limits. Independent reference-by-reference review and physical iPhone/Home Screen testing are **not yet verified**.
 
+## Narcissism specialization expansion — 2026-11-13 (draft)
+- Added **16 topic-specific expository sections** distributed across eight existing chapter/category endpoints, covering narcissism research and theory, NPD distinctions, grandiose/vulnerable traits, empathy, shame, exploitation, rivalry, self-serving attributions, group/status dynamics, and psychology of harm and recovery.
+- Added **2,349 further expository words** (new sections contain no separate case studies); provisional cumulative count **66,589** (61,409 Batch 8 baseline + 2,831 Batch 9 + 2,349 specialization). Provisional target remaining: **183,411**. This arithmetic is **not** a substitute for executing the word-count script against the current branch.
+- All eight main categories retained. No newly added exercises, tests, or case stories. The 80-subject roadmap was refocused around evidence-based narcissism specialization, with cross-category mechanisms carefully distinguished from NPD-specific evidence.
+- Next verification: execute counter and syntax checks, audit existing citations, ensure no duplication, verify iPhone Home Screen behavior and unchanged progress storage. No production merge/deploy or independent scientific sign-off.
+
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
 2. Independently verify bibliographic links, source claims, population/sample descriptions, effect-size interpretations, and dates.
