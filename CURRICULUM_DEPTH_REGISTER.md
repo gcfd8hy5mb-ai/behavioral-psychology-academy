@@ -58,9 +58,17 @@ Run `node tools/count-textbook-words.mjs` from the repository root.
 
 ## Textbook-guided Narcissism Batch 14 — 2026-11-13 (draft)
 - Added **9 original extended textbook sections** across 9 existing chapters, addressing narcissism classification, dimensional trait theory, admiration and rivalry, coercion, contempt, accountability, social status, empathy, cognitive bias and psychological recovery.
-- **1,848 qualifying expository words**, no case studies, homework or assessments. Cumulative conservative estimate **71,348 / 250,000**; **178,652** remaining, subject to verification by recomputed counter.
+- **1,848 qualifying expository words**, no case studies, homework or assessments. Interim subtotal **71,348 / 250,000**, before companion Batch 14B; see combined verified result below.
 - Source guidance verified against OpenStax *Psychology 2e* (current online license has AI-ingestion prohibition and CC BY-NC-SA terms), Crego and Widiger's Noba personality-disorder overview, Back et al. 2013 on admiration/rivalry, and peer-reviewed relationship research. Original synthesized prose only; do not import textbook passages into generative tools or republish without permission.
 - Both inline scripts passed syntax checks before commit. Physical iPhone, regression and independent reference-to-claim validation remain pending. No merge or deploy.
+
+## Combined large textbook Batch 14 + 14B — 2026-11-13 (draft)
+- Added **18 original expository reading sections across the established chapter structure**, totaling **3,877 new qualifying words** (Batch 14: 1,848; Batch 14B: 2,029). No new case studies, quizzes or assignments.
+- Existing main navigation continues to have **eight approved categories**; 36 lesson/chapter records retained.
+- Conservative total independently recomputed from all curriculum arrays using the repository counter's exact title-based classification: **73,377 / 250,000**, **176,623 remaining**. Standalone case/example prose excluded: **13,259 words**. Mixed-section narrative may require a finer editorial exclusion pass.
+- Both inline JavaScript blocks passed V8 syntax checks after both expansions; no physical mobile/PWA test performed. Direct running of `node tools/count-textbook-words.mjs` remains outstanding, although equivalent counting logic was executed.
+- Source-guided original writing references OpenStax *Psychology 2e*, Noba *Personality Disorders*, Back et al. (2013) on narcissistic admiration/rivalry and clinical review scholarship. No textbook passages were imported. Reference-to-claim verification is not yet exhaustive.
+- Keep draft; do not merge or deploy pending independent content audit, runtime regression and on-device review.
 
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
