@@ -422,7 +422,8 @@ render();
       const response = await fetch(endpoint.href, {cache:"no-store"});
       if (!response.ok) return;
       const latest = (await response.text()).trim();
-      if (latest && latest !== BUILD) {
+      const loadedVersion = new URL(location.href).searchParams.get("app-build") || BUILD;
+      if (latest && latest !== loadedVersion) {
         // Avoid interrupting a student currently typing an answer or reflection.
         const active = document.activeElement;
         if (active && ["INPUT","TEXTAREA","SELECT"].includes(active.tagName)) return;
