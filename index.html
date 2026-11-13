@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#EAE3F0"><meta name="description" content="Behavioral Intelligence: in-depth psychology reading, research references, realistic case studies and practical guidance.">
 <title>Behavioral Intelligence — Psychology Library</title>
@@ -401,5 +402,46 @@ if(e.target.id==="recovery-reflection"){recoveryNotes=e.target.value.slice(0,800
 if(e.target.id==="trait-search"){const pos=e.target.selectionStart;traitQuery=e.target.value;render();const item=document.getElementById("trait-search");if(item){item.focus();item.setSelectionRange(pos,pos)}}if(e.target.id==="deal-search"){const pos=e.target.selectionStart;dealQuery=e.target.value;render();const item=document.getElementById("deal-search");item.focus();item.setSelectionRange(pos,pos)}if(e.target.id==="pattern-search"){const pos=e.target.selectionStart;patternQuery=e.target.value;render();const i=document.getElementById("pattern-search");i.focus();i.setSelectionRange(pos,pos)}if(e.target.id==="guide-search"){const pos=e.target.selectionStart;query=e.target.value;render();const i=document.getElementById("guide-search");i.focus();i.setSelectionRange(pos,pos)}});
 document.getElementById("menu-toggle").addEventListener("click",e=>{const m=document.getElementById("mobile-menu"),opened=m.classList.toggle("hide")===false;e.currentTarget.setAttribute("aria-expanded",String(opened))});
 render();
+</script>
+
+<script id="bia-cache-revalidation">
+/* Check for new deployments when reopening the installed iPhone app.
+   Never clear localStorage, IndexedDB, or saved student progress. */
+(() => {
+  const BUILD = "2026-11-13-cache-v1";
+  let checking = false;
+  let lastCheck = 0;
+  const refresh = async () => {
+    if (checking || !navigator.onLine || document.visibilityState === "hidden") return;
+    if (Date.now() - lastCheck < 15000) return;
+    checking = true;
+    lastCheck = Date.now();
+    try {
+      const endpoint = new URL("./build-version.txt", location.href);
+      endpoint.searchParams.set("t", String(Date.now()));
+      const response = await fetch(endpoint.href, {cache:"no-store"});
+      if (!response.ok) return;
+      const latest = (await response.text()).trim();
+      if (latest && latest !== BUILD) {
+        // Avoid interrupting a student currently typing an answer or reflection.
+        const active = document.activeElement;
+        if (active && ["INPUT","TEXTAREA","SELECT"].includes(active.tagName)) return;
+        const url = new URL(location.href);
+        url.searchParams.set("app-build", latest);
+        location.replace(url.href);
+      }
+    } catch (_) {
+      // Keep the academy usable offline; retry on next foreground/online event.
+    } finally { checking = false; }
+  };
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js", {updateViaCache:"none"}).catch(() => {});
+  }
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") refresh();
+  });
+  window.addEventListener("pageshow", refresh);
+  window.addEventListener("online", refresh);
+})();
 </script>
 </body></html>
