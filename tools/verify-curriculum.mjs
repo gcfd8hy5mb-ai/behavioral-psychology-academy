@@ -29,6 +29,17 @@ for(const item of expansion){
 }
 assert(html.includes('for(const entry of completionPass22)'),'Expansion not wired to renderer');
 assert(html.includes('const textbookDeepDiveByTitle=new Map('),'Reading index missing');
+const recoveryModules=get('recoveryModules');
+const recoveryDepthGuide=get('recoveryDepthGuide');
+assert.equal(recoveryModules.length,10,'Original trauma coping modules changed');
+assert.equal(recoveryDepthGuide.length,10,'Ten trauma research additions required');
+for(const [i,m] of recoveryDepthGuide.entries()){
+ assert(m.title && m.foundation.length>180 && m.research.length>180 && m.practice.length>50 && m.caution.length>30,'Incomplete trauma research module '+(i+1));
+}
+assert(html.includes('const detail=recoveryDepthGuide[recoveryModule]'),'Deep reading disconnected');
+assert(html.includes('depth+quick+principles+'),'Recovery depth panels disconnected');
+assert(html.includes('clearRecoveryPrivateState()'),'Private state reset missing');
+assert(!/saveLocal\\(.*recoveryNotes/.test(html),'Recovery reflection unexpectedly persisted');
 assert(html.includes('localStorage'),'Progress persistence missing');
 assert(html.includes('bia-cache-revalidation'),'Cache revalidation missing');
 assert(sw.includes('cache: "no-store"'),'Network-first navigation missing');
