@@ -17,3 +17,11 @@ Updated 2026-11-13. This register links to external educational references. It d
 4. Link to chapter-relevant external resources and original research when checked. Do not manufacture citation support for conclusions not present in the resource.
 5. Keep chapters genuinely reading-only. Case studies, quizzes, assignments and other activities must not contribute to the 250,000 expository-word goal.
 6. Treat online availability as distinct from permission to reuse or use material in generative AI workflows.
+
+## Additional peer-reviewed sources checked for Batch 13
+
+- Back, M. D., et al. (2013). *Narcissistic admiration and rivalry: Disentangling the bright and dark sides of narcissism.* Journal of Personality and Social Psychology, 105(6), 1013–1037. DOI: https://doi.org/10.1037/a0034431 ; abstract https://pubmed.ncbi.nlm.nih.gov/24128186/ . The authors report seven studies using the NARQ. Use for the distinction between admiration and rivalry, not as a diagnostic test.
+- Widiger, T. A., & Smith, M. M. (2025). *Personality Disorders: Current Conceptualizations and Challenges.* Annual Review of Clinical Psychology, 21, 169–192. https://doi.org/10.1146/annurev-clinpsy-081423-030513 . Use for debates over categorical and dimensional classification. Check the specific claim and version before attributing it.
+- Mitra, P., Torrico, T. J., & Fluyau, D. (2024 update). *Narcissistic Personality Disorder.* StatPearls / NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK556001/ . Clinical diagnosis, differential diagnosis and treatment evidence. The page must be checked for subsequent updates.
+
+These references support bounded discussions of the identified constructs. They do not validate diagnoses of particular individuals or a universal causal explanation for manipulation or abuse.
