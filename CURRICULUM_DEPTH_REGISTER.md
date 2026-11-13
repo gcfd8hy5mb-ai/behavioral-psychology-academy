@@ -3,6 +3,7 @@
 Updated: 2026-11-13 (Batch 9 draft, branch `curriculum/250k-textbook-depth-batch-9`)
 
 ## Curriculum contract
+- **Specialization:** narcissism, pathological narcissistic traits and NPD, their evidence-based psychological correlates, important alternative explanations, relationship dynamics and harms; all other subjects support this central focus rather than forming a general psychology curriculum.
 - **Target: 250,000 words of substantive textbook prose** across the existing 36 chapters under the **eight approved main categories**.
 - **Do not count case studies** toward the target. Keep cases available separately for illustration, but do not count separate case-study material, worked examples, fictional narratives, scenarios, or applied-example sections.
 - Also exclude questions, quizzes, homework, assignments, bibliographies, citation labels, navigation text, and chapter/section headings.
