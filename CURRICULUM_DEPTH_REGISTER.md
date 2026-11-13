@@ -42,6 +42,13 @@ Run `node tools/count-textbook-words.mjs` from the repository root.
 - All eight main categories retained. No newly added exercises, tests, or case stories. The 80-subject roadmap was refocused around evidence-based narcissism specialization, with cross-category mechanisms carefully distinguished from NPD-specific evidence.
 - Next verification: execute counter and syntax checks, audit existing citations, ensure no duplication, verify iPhone Home Screen behavior and unchanged progress storage. No production merge/deploy or independent scientific sign-off.
 
+## Open-textbook-informed original synthesis — 2026-11-13 (draft)
+- Added eight new reading-only, entirely original explanatory sections across seven existing chapters on narcissistic traits, developmental hypotheses, grandiosity/vulnerability, attachment, empathy, defensive self-image, coercion and treatment research.
+- **872 new expository words** excluding headings and cases. **Provisional accumulated total 67,461 / 250,000; provisional remaining 182,539**. Not a verified full counter run.
+- Added `FREE_TEXTBOOK_SOURCE_REGISTER.md` with OpenStax, Noba, StatPearls and Portland State external reading links and reuse cautions. Do not copy source text: the current OpenStax online preface describes noncommercial/share-alike terms and an AI-ingestion restriction, while some PDF versions contain different license statements. Resolve the exact rights before any source adaptation.
+- Extended `tools/count-textbook-words.mjs` to include `openTextbookSynthesisBatch12`.
+- Pending: full counter execution, source-to-claim review, physical-device and progress-preservation acceptance, and academic expert review.
+
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
 2. Independently verify bibliographic links, source claims, population/sample descriptions, effect-size interpretations, and dates.
