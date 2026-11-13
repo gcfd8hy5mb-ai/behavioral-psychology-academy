@@ -70,6 +70,13 @@ Run `node tools/count-textbook-words.mjs` from the repository root.
 - Source-guided original writing references OpenStax *Psychology 2e*, Noba *Personality Disorders*, Back et al. (2013) on narcissistic admiration/rivalry and clinical review scholarship. No textbook passages were imported. Reference-to-claim verification is not yet exhaustive.
 - Keep draft; do not merge or deploy pending independent content audit, runtime regression and on-device review.
 
+## Batch 15 — extended narcissism theory and research (2026-11-13, draft)
+- Added **24 original research-led expository sections** in eight chapters spanning the approved eight main categories: clinical/personality models, coercion, hostile conduct, accountability, social power, emotions/attachment, reasoning/defenses, and psychological harm/recovery.
+- **3,825 new qualifying textbook words**, excluding all standalone case-study material. Full conservative prose total **77,202 / 250,000**; **172,798 words remaining**. Recomputed by parsing all live curriculum arrays using the repository's title-based case-exclusion rule. Standalone excluded case/example material: **13,259 words**. Mixed illustrative sentences may still need more precise editorial labeling.
+- Both inline script blocks passed syntax checks, all 36 existing chapter titles were preserved, and the localStorage/progress and pageshow update hooks remain present. Direct Node invocation, in-browser runtime regression, and physical iPhone testing remain pending.
+- Content is original synthesis informed by free university-level reading and scholarly research; copyrighted textbook chapters were not inserted. A thorough claim-by-claim source audit remains outstanding.
+- This branch remains a draft. No merge or deployment, no external academic sign-off.
+
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
 2. Independently verify bibliographic links, source claims, population/sample descriptions, effect-size interpretations, and dates.
