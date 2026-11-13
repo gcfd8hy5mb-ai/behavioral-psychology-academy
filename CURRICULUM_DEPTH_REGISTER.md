@@ -77,6 +77,14 @@ Run `node tools/count-textbook-words.mjs` from the repository root.
 - Content is original synthesis informed by free university-level reading and scholarly research; copyrighted textbook chapters were not inserted. A thorough claim-by-claim source audit remains outstanding.
 - This branch remains a draft. No merge or deployment, no external academic sign-off.
 
+## Batch 16 — original textbook-guided narcissism expansion (2026-11-13, draft)
+- Added **17 substantive reading sections across 12 existing chapters**, increasing depth in clinical classification, narcissistic development, admiration/rivalry, empathy, adult attachment, conflict, coercive influence, contempt, clinical change, leadership, cognition, and recovery.
+- **3,498 new qualifying textbook words** (excluding headings and case stories). Conservative cumulative total **80,700 / 250,000**, with **169,300 remaining**. Recomputed by executing equivalent JavaScript counting logic on all curriculum arrays and the register's title-based case exclusion rule; the standalone `node tools/count-textbook-words.mjs` CLI is not yet separately executed.
+- **13,259 standalone case/example words** excluded in the same calculation; mixed-section examples still require editorial separation before claiming publication-grade precision.
+- Both inline scripts passed JavaScript syntax tests, all **36 existing chapter titles** retained, no new quizzes or activities. Storage/cache behavior was not modified; complete runtime and mobile persistence regression remain pending.
+- Scholarly context: Back et al. 2013 on admiration/rivalry (PMID 24128186), Crego & Widiger's 2026 Noba personality disorders module, and Emmelkamp & Meyerbröker 2025 psychotherapy review (PMID 39239878). This is independently drafted synthesis, **not** textbook chapter copying. Scientific claim-to-source verification is not exhaustive, and no external academic sign-off has occurred.
+- Preserve draft PR #15; no merge or deploy.
+
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
 2. Independently verify bibliographic links, source claims, population/sample descriptions, effect-size interpretations, and dates.
