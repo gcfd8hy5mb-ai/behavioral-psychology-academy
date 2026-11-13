@@ -56,6 +56,12 @@ Run `node tools/count-textbook-words.mjs` from the repository root.
 - Added the new array to `tools/count-textbook-words.mjs`. Do not count case studies or independent reference material toward the target.
 - Sources supporting specific research context include Back et al. (2013), PMID 24128186 (narcissistic admiration and rivalry); Crego & Widiger's Noba *Personality Disorders* module; Mitra, Torrico & Fluyau's StatPearls NPD clinical reference (updated 2024); and Widiger & Smith (2025) on dimensional classification. Source-to-claim editorial audit and on-device testing are still pending.
 
+## Textbook-guided Narcissism Batch 14 — 2026-11-13 (draft)
+- Added **9 original extended textbook sections** across 9 existing chapters, addressing narcissism classification, dimensional trait theory, admiration and rivalry, coercion, contempt, accountability, social status, empathy, cognitive bias and psychological recovery.
+- **1,848 qualifying expository words**, no case studies, homework or assessments. Cumulative conservative estimate **71,348 / 250,000**; **178,652** remaining, subject to verification by recomputed counter.
+- Source guidance verified against OpenStax *Psychology 2e* (current online license has AI-ingestion prohibition and CC BY-NC-SA terms), Crego and Widiger's Noba personality-disorder overview, Back et al. 2013 on admiration/rivalry, and peer-reviewed relationship research. Original synthesized prose only; do not import textbook passages into generative tools or republish without permission.
+- Both inline scripts passed syntax checks before commit. Physical iPhone, regression and independent reference-to-claim validation remain pending. No merge or deploy.
+
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
 2. Independently verify bibliographic links, source claims, population/sample descriptions, effect-size interpretations, and dates.
