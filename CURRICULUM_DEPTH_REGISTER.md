@@ -93,6 +93,18 @@ Run `node tools/count-textbook-words.mjs` from the repository root.
 - Source-derived claims still require exhaustive scholarly claim-to-citation review and independent sign-off. This is original prose based on research themes, not copied textbook chapters.
 - Draft PR #15 remains unmerged and undeployed.
 
+## Batches 18–20 — college-textbook-informed narcissism expansion (2026-11-13, draft)
+
+- **Batch 18:** 18 new expository reading sections across nine existing chapters; **3,184 words**. Scope: personality assessment, theoretical traditions, grandiosity/vulnerability, autonomy and coercion, hostile communication, accountability, power, empathy, cognitive inference, and treatment/recovery.
+- **Batch 19:** 18 new expository reading sections across nine chapters; **2,627 words**. Scope: longitudinal study design, clinical differential diagnosis, self-regulation, coercion and information control, relationship dynamics, status, emotional invalidation, research bias, PTSD/CPTSD distinctions and treatment outcomes.
+- **Batch 20:** 18 new expository reading sections across nine chapters; **2,467 words**. Scope: categorical versus dimensional NPD models, diagnostic stigma, developmental change, interpersonal tactics versus mental disorder, workplace harm, moral disengagement, reputation, emotion regulation, metacognition and treatment/recovery boundaries.
+- **Total for Batches 18–20: 54 original research-led sections, 8,278 qualifying words.** No textbook passages were copied; reference sources inform independently written synthesis.
+- Full conservative count recomputed by parsing all curriculum arrays using the repository's title-based classification: **92,570 / 250,000 (37.0%)**, **157,430 remaining**. Standalone case/example prose excluded: **13,259 words**. This is a *textbook-word counting checkpoint*, not an academic certification. Narrative/example content inside mixed sections still needs granular audit. The standalone Node CLI has not yet been directly run; equivalent JS logic was executed.
+- All **36 chapter records** and eight approved navigation category structure remain in place. The new data arrays map to valid existing chapter titles and both inline JavaScript scripts pass syntax checks. Existing progress-storage and cache-refresh hooks remain present; actual persistence, UI rendering, and PWA behavior remain unverified on physical devices.
+- Free-reference policy remains conservative: link to OpenStax *Psychology 2e*, Noba personality-disorders material, NCBI/StatPearls, and primary research. Online reading availability does not grant permission to copy content or ingest restricted editions. Independently verify every scientific claim, citation, edition, publication date and license before publication.
+- Future true-textbook-depth requirements: much longer coherent chapter treatments, explicit primary-study summaries with methods and results, systematic evidence tables, reference-to-paragraph mapping, treatment of contrary research, elimination of conceptual repetition, and detailed faculty-style editorial audit. Independent clinical/academic review remains outstanding.
+- **No merge or deployment.** Draft PR #15 is the staging area.
+
 ## Completion gates
 1. Expand short and under-researched chapter sections with substantive material; do not add learning activities.
 2. Independently verify bibliographic links, source claims, population/sample descriptions, effect-size interpretations, and dates.
