@@ -18,7 +18,8 @@ const collections=[
   jsonArray(/const researchDepthBatch4=(\[[\s\S]*?\]);\n/),
   jsonArray(/const researchDepthBatch5=(\[[\s\S]*?\]);\n/),
   jsonArray(/const textbookDepthBatch8=(\[[\s\S]*?\]);\n/),
-  jsonArray(/const textbookDepthBatch8B=(\[[\s\S]*?\]);\n/)
+  jsonArray(/const textbookDepthBatch8B=(\[[\s\S]*?\]);\n/),
+  jsonArray(/const textbookDepthBatch9=(\[[\s\S]*?\]);\n/)
 ].flat();
 const edits=[
   ...jsonArray(/const auditedSectionExpansions=(\[[\s\S]*?\]);\n/),
