@@ -18,7 +18,8 @@ assert.equal(lessons.length,36,'Chapter count changed');
 const expected=['Narcissistic traits: the full behavioral picture','Blame-shifting: mechanisms and counter-moves','Gaslighting, memory, and reality testing','Truth-seeking and evidence-based questioning','Boundaries, power, and conflict strategy','Persuasion versus psychological exploitation','DARVO: denying, attacking, and reversing roles'];
 for(const title of expected)assert(lessons.some(x=>x.title===title),'Missing baseline chapter '+title);
 assert.equal(new Set(lessons.map(x=>x.title)).size,36,'Duplicate chapters');
-assert.equal(new Set(lessons.map(x=>x.category)).size,8,'Main curriculum categories changed');
+const nav=get('nav');
+assert.deepEqual(nav.slice(2,10).map(x=>x[0]),['personality','manipulation','hostility','accountability','hierarchy','emotion','cognition','recovery'],'Eight approved navigation categories changed');
 const expansion=get('completionPass22');
 assert.equal(expansion.length,8,'Expected eight expanded chapters');
 for(const item of expansion){
