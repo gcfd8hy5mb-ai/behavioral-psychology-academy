@@ -25,7 +25,8 @@ const collections=[
   jsonArray(/const narcissismResearchBatch13=(\[[\s\S]*?\]);\n/),
   jsonArray(/const narcissismTextbookBatch14=(\[[\s\S]*?\]);\n/),
   jsonArray(/const narcissismTextbookBatch14B=(\[[\s\S]*?\]);\n/),
-  jsonArray(/const narcissismTextbookBatch15=(\[[\s\S]*?\]);\n/)
+  jsonArray(/const narcissismTextbookBatch15=(\[[\s\S]*?\]);\n/),
+  jsonArray(/const narcissismTextbookBatch16=(\[[\s\S]*?\]);\n/)
 ].flat();
 const edits=[
   ...jsonArray(/const auditedSectionExpansions=(\[[\s\S]*?\]);\n/),
