@@ -1,0 +1,26 @@
+name: Publish installed-app version
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - build-version.txt
+permissions:
+  contents: write
+jobs:
+  version:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Update version marker when source changes
+        run: |
+          printf '%s\n' "$GITHUB_SHA" > build-version.txt
+          if ! git diff --quiet -- build-version.txt; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add build-version.txt
+            git commit -m "chore: refresh installed academy build marker"
+            git push origin HEAD:main
+          fi
