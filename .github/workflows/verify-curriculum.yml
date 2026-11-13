@@ -1,0 +1,20 @@
+name: Verify Behavioral Academy Curriculum
+on:
+  pull_request:
+  push:
+    branches:
+      - curriculum/250k-textbook-depth-batch-9
+jobs:
+  curriculum:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify inline JavaScript and curriculum integrity
+        run: node tools/verify-curriculum.mjs
+      - name: Verify word counter
+        run: node tools/count-textbook-words.mjs
